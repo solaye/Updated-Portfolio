@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+ .header{
+
+    margin-bottom: 20px; 
+ } 
+
+ p{
+
+    line-height: 2;
+ }
+
+
+
+body{
+background: url(images/white-waves.png)
+
+}
+
+h3{
+
+    color: #4aaaa5;
+  }
+
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.stet{
+   background: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+
+
+}
+
+.jumbotron{
+    border: 1px solid #dddddd;
+
+}
+
+p:hover {
+    color: teal;
+}
+
+.footer{
+
+
+    border-top: 8px solid #4aaaa5;
+  background: #666666 ! important;
+  color: #777777;
+
+}
+
+.copyright{
+
+    margin: 0 auto;
+}
+
+
+.space{
+
+ margin-top: 50px;   
+}
