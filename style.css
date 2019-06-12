@@ -1,68 +1,101 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-
- .header{
-
-    margin-bottom: 20px; 
- } 
-
- p{
-
-    line-height: 2;
- }
-
-
-
-body{
-background: url(images/white-waves.png)
-
-}
-
-h3{
-
-    color: #4aaaa5;
-  }
-
-h1 {
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.stet{
-   background: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #ffffff;
-
-
-}
-
-.jumbotron{
-    border: 1px solid #dddddd;
-
-}
-
-p:hover {
-    color: teal;
-}
-
-.footer{
-
-
-    border-top: 8px solid #4aaaa5;
-  background: #666666 ! important;
-  color: #777777;
-
-}
-
-.copyright{
-
-    margin: 0 auto;
+body {
+  overflow-x: hidden; /*--right gutter fix--*/
+  font-family: sans-serif;
+  color: #505962;
 }
 
 
-.space{
+.navbar {
 
- margin-top: 50px;   
+  text-transform: uppercase;
+  background-color: #505962;
+}
+
+
+
+
+.navbar-brand img {
+height: 2rem;
+
+}
+.home-inner{
+
+  background-image: url('img/background.jpg')
+}
+
+.caption {
+width: 100%;
+max-width: 100%;
+position: absolute;
+top: 40%;
+z-index: 1;
+}
+
+.caption h3{
+color: white;
+font-size: 2.4rem;
+text-transform: uppercase;
+padding-bottom: 2rem;
+
+}
+
+.btn{
+
+  border-width:  medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  padding: .5rem 1.1rem;
+  font-size: .9rem;
+}
+
+h3.heading{
+
+text-align: center;
+font-size: 1.9 rem;
+text-transform: uppercase;
+margin-bottom: 1.9 rem;
+}
+
+.padding {
+padding: 2rem 0;
+
+}
+img.portfolio {
+
+  max-width: 100%; 
+}
+
+.no-padding .col-md-6 {
+  padding: 0;
+}
+
+/*--- iOS Landing Page Fix --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
 }

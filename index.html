@@ -1,119 +1,213 @@
 <!DOCTYPE html>
-<html>
 
 <head>
-   <title> About Me</title>
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nest Light - Responsive Bootstrap 4 Theme</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#menu">
 
-   <nav class=" header navbar navbar-expand-lg navbar-light bg-light">
-      <a class=" stet navbar-brand" href="#">Stetson Olaye</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-         <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
-            <a  class="nav-item nav-link" href="https://solaye.github.io/GifTastic/"> Gif Generator</a>
-         </div>
-      </div>
-   </nav>
-   <div class="container">
-      <div class="row">
-         <div class="col-md-12">
-            <div class="jumbotron">
-               <h1 class="display-4">About Me</h1>
-               <p class="lead"></p>
-               <hr class="my-4">
-               <div class="row">
-               <div class="col-md-4">
-               <img src="images/pic.jpg" class="img-fluid" alt="Responsive image">
-            </div>
-            <div class="col-md-6">
-               <p>My name is Stetson Olaye, and I am from the greatest state in the Union. The Lone Star State of Texas.
-                  I am 30 years old and currently based out of Denver, CO where I have resided the past five years.I
-                  have a 2-year-old German Shepherd named Lennon after John Lennon. I love basketball, hiking,
-                  snowboarding, watching anime, movies, and reruns of Seinfeld.
-                  I never met a taco that I didn't like, and could probably say the same thing about beer.
-                  I am hoping to become awesome at coding throughout the six months of the program so that I can realize
-                  my
-                  dreams of world domination (evil laugh).</p>
-               </div>
-               </div>
-               <br>
-               <br>
-               <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/stetson-olaye-8812a758 role="button">LinkedIn</a>
-            </div>
-         </div>
-      </div>
-      <div class=" space row">
-         <div class="col-md-12">
-            
-               <nav class= "footer navbar fixed-bottom navbar-light bg-light">
-                     <a class=" copyright navbar-brand" href="#"><h5> Copyright</h5></a>
-                   </nav>
-               
-            </div>
-         </div>
-      </div>
-      <div class="container" id = "portfolio">
-         <div class="row">
-            <div class="col-md-12">
-               <div class="jumbotron">
-   
-                  <h1 class="display-4">Portfolio</h1>
-                  <p class="lead"></p>
-                  <hr class="my-4">
-                  <div class="row">
-                     <div class="col-md-5">
-                        <img src="images/business.jpg" class="img-fluid" alt="Business image">
-                        <a href="https://solaye.github.io/GifTastic/"></a>
-                        <h3>Business</h3>
-                     </div>
-                     <div class="col-md-5">
-                        <img src="images/city.jpg" class="img-fluid" alt="City image">
-                        <h3>City</h3>
-                     </div>
-   
-                  </div>
-                  <div class="row">
-                     <div class="col-md-5">
-                        <img src="images/tech.jpg" class="img-fluid" alt="Tech image">
-                        <h3>Tech</h3>
-                     </div>
-                     <div class="col-md-5">
-                   <img src="images/sports.jpg" class="img-fluid" alt="Sports image">
-                   <h3>Sports</h3>
-                     </div>
-   
-                  </div>
-                  <div class="row">
-                     <div class="col-md-5">
-                        <img src="images/transport.jpg" class="img-fluid" alt="Tech image">
-                        <h3>Transport</h3>
-   
-                     </div>
-                  </div>
-   
-   
-               </div>
-   
-   
-            </div>
-   
-         </div>
-   
-      </div>
-   
+  <!---Home Section-->
+  <div id="home">
 
-   </div>
-   </div>
+    <!---Navigation-->
+
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="#"> <img src="img/nest.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+
+          <span class="navbar-toggler-icon"></span>
+
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home"> Home</a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <!--- Landing Page-->
+
+    <div class="landing">
+      <div class="home-wrap">
+        <div class="home-inner">
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+<!---Start Landing Page Caption-->
+<div class="caption center-block text-center">
+<h3> Stetson Olaye</h3>
+<a class="btn btn-outline-light" href="#about"> Welcome</a>
+
+</div>
+</div>
+
+  <!---End of Home-->
+<!---About Section-->
+  <div id ="about">
+<div class="jumbotron">
+
+<h3 class="heading"> About</h3>
+<div class="row">
+    
+  <div class="col-md-4 text-center">
+
+        <h4>Contact Form </h4>
+        <p></p>
+      </div>
+
+
+<div class="col-md-4 text-center">
+
+  <h4>Education</h4>
+  
+    <ul> Bachelor in Business Administration & Marketing at Baylor University 2011 </ul>
+    <ul> Masters of Science in Marketing at University of Denver 2016 </ul>
+
+
+  
+</div>
+<div class="col-md-4 text-center">
+
+    <h4>Skills </h4>
+   <li>Javascript</li>
+   <li>JQuery</li>
+   <li>Node JS</li>
+   <li>Express JS</li>
+   <li>HTML</li>
+   <li>CSS</li>
+
+  </div>
+  
+
+</div>
+<!---End of Row-->
+
+</div> <!---End Jumbotron-->
+
+</div> 
+<!---End About Section-->
+<!---Portfolio Section-->
+
+<div id="portfolio"> 
+<div class="container-fluid padding">
+<h3 class="heading">Portfolio</h3>
+<div class="row no-padding">
+<div class="col-md-6">
+<img class="portfolio" src="img/Giftastic.gif">
+
+</div>
+<div class="col-md-6">
+    <img class="portfolio" src="img/Gif.gif">
+    
+    </div>
+
+    
+
+</div>
+<div class="row no-padding">
+  <div class="col-md-6">
+  <img class="portfolio" src="img/Node.gif">
+  
+  </div>
+  <div class="col-md-6">
+      <img class="portfolio" src="img/Spidey.png">
+      
+      </div>
+  
+      
+  
+  </div>
+
+</div>
+<!---End Container-->
+
+</div> <!--End Portfolio Section-->
+<!---Testimonials-->
+<div id="testimonials">
+  <h3 class="heading">Testimonials</h3>
+<div class="row padding">
+
+ <div class="col-md-6">
+  <div class="card text-center">
+    <img class="card-img-top" src="img/5.png">
+    <div class="card-body">
+      <h4>John Lee</h4>
+      <p> "Stetson is a proven professional who has extended his core competencies to include full stack web development"</p>
+    </div>
+  </div>
+
+ </div> 
+ <div class="col-md-6">
+    <div class="card text-center">
+      <img class="card-img-top" src="img/6.png">
+      <div class="card-body">
+        <h4>Jessica Miller</h4>
+        <p> "Stetson is the a focused determined individual who will instantly add value to any project that he is contracted for."</p>
+      </div>
+    </div>
+  
+   </div> 
+</div>
+
+</div><!--End of Testimonials-->
+<!--Contact Session-->
+
+<div id="contact">
+
+  <div class="container-fluid footer">
+<div class="row">
+
+<div class="col-md-3"></div>
+<div class="col-md-6 text-center">
+<strong>Location</strong>
+<p>3500 Rockmont Drive<br>Denver,CO 80202</p>
+<strong>Contact Info</strong>
+<p>(409) 293-5498<email>solaye1988@gmail.com</email></p>
+
+</div>
+
+</div>
+
+  </div>
+</div> <!-- End of Contact Session-->
+
+  <!--- Script Source Files -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </body>
+
 </html>
